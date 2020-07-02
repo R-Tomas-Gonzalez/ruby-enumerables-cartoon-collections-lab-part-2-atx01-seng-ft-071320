@@ -1,6 +1,6 @@
 def square_array(array)
   array.map do |element|
-    new_array << element * element
+    element * element
   end
 end
 
